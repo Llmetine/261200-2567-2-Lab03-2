@@ -10,8 +10,8 @@ public class Patient {
 //        this.height=height;
 //        this.weight=weight;
         this.phoneNumber = phoneNumber;
-        if(bloodGroup!="A"||bloodGroup!="B"||bloodGroup!="AB"||bloodGroup!="O"){
-            bloodGroup="Error";
+        if (bloodGroup!="A" && bloodGroup!="B" && bloodGroup!="AB" && bloodGroup!="O"){
+            this.bloodGroup="Error";
         }
         else{
             this.bloodGroup = bloodGroup;
