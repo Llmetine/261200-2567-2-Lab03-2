@@ -40,21 +40,12 @@ public class Patient {
     }
 
     public int getbirthYear(){
-        if(birthYear<=1800){
-            System.out.println("birthYear Error!!!");
-        return 0;
-        }
-        else{
-        return this.birthYear;}
+        return this.birthYear;
     }
 
     public double getheight(){
-        if(height == 0){
-            System.out.println("Height Error!!!");}
         return this.height;}
     public double weight(){
-        if(weight == 0){
-            System.out.println("Weight Error!!!");}
         return this.weight;
     }
 
