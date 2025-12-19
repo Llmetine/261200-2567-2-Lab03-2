@@ -3,7 +3,7 @@ public class Patient {
     private int id,birthYear;
     private double height,weight;
 
-    Patient(int id,String name,int birthYear,double height,double weight) {
+    Patient(int id,String name,int birthYear,double height,double weight,String phoneNumber,String bloodGroup) {
         this.id = id;
         this.name = name;
         this.birthYear = birthYear;
