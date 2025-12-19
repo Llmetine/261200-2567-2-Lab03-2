@@ -61,7 +61,7 @@ public class Patient {
         return this.bloodGroup;
     }
 
-    public String phoneNumber(){
+    public String getphoneNumber(){
         return this.phoneNumber;
     }
 
@@ -76,6 +76,8 @@ public class Patient {
         System.out.println("Patient Height (cm): " + height);
         System.out.println("Patient Weight (kg): " + weight);
         System.out.println("BMI= "+getBMI());
+        System.out.println("BloodGroup= "+getBloodGroup());
+        System.out.println("Phone Number= "+getphoneNumber());
         if(height==0){
             System.out.println("Height Error!!!");
         }
